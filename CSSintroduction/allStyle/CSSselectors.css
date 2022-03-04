@@ -1,0 +1,34 @@
+* {
+  background-color: #FFE4C4;
+}
+/* Visu Selector ir selector atribute bei psiaudo elementu ir klasiu ieškome: CSS selector refenece*/
+/* CSS element selector  */
+h1 {
+    color:#FF6600;
+    text-shadow: 2px 2px 4px black ;
+    text-align: center;
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/* CSS class selector*/
+.earth {
+  text-align: center;
+  color: #D2691E;
+  font-size: 150px;
+  font-family: Cambria;
+  text-decoration: line-through;
+}
+/* galioja visiems <p> elementams*/
+p.class {
+  background-color: #BC8F8F;
+  text-align: center;
+}
+
+/* CSS id selector*/
+#para {
+    text-align: center;
+}
