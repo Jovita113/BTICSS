@@ -1,0 +1,10 @@
+/*Select and style the first letter of every <p> element*/
+p::first-letter {
+    font-size: 100%;
+    color:#D00000 ;
+  }
+  
+  /*Specify a background color for every <p> element that is the second child of its parent:*/
+  p:nth-child(3) {
+    background:	#D8D8D8;
+  }
