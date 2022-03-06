@@ -1,24 +1,19 @@
-/* unvisited link */
 a:link {
     color: black;
   }
   
-  /* visited link */
   a:visited {
     color: green;
   }
   
-  /* mouse over link */
   a:hover {
     color: red;
   }
   
-  /* selected link */
   a:active {
     color: yellow;
   }
 
-  /*Style all <a> elements with a target attribute. yra ir daugiau atributu*/
   a[target] {
     background-color: yellow;
   }
