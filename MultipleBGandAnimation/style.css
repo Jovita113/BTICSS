@@ -1,0 +1,127 @@
+ * {
+    
+    background-image: url(peleda.gif), url(ruduo.jpg);
+    background-repeat: no-repeat,no-repeat;
+    background-position: left bottom,center top;
+    background-attachment: fixed;/* ar paveiksliukas juda kartu kai slenkam zemyn psl ar fiksuotas*/
+    background-size: 300px, 1050px;  
+
+}
+
+/* galima koda sutrumpint
+* {
+    background: lightblue url(peleda.jpeg) no-repeat fixed right bottom;
+}*/
+
+@keyframes first_div_anim {
+    0% {
+        background-color: #6b5b95;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #feb236;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: #d64161;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color:#ff7b25;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: #6b5b95;
+        left: 0px;
+        top: 0px;
+    }
+}
+@keyframes second_div_anim {
+    0% {
+        background-color: rgb(255, 174, 0);
+        right: 200px;
+        bottom: 0px;
+    }
+    25% {
+        background-color: rgb(187, 255, 0);
+        right: 200px;
+        bottom: 200px;
+    }
+    50% {
+        background-color: rgb(0, 77, 128);
+        right: 0px;
+        bottom: 200px;
+    }
+    75% {
+        background-color: rgb(255, 0, 119);
+        right: 0px;
+        bottom: 0px;
+    }
+    100% {
+        background-color: rgb(255, 174, 0);
+        right: 200px;
+        bottom: 0px;
+    }
+}
+body {
+    margin-top: 17rem;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(Fabulous_PERSONAL_USE.ttf);
+  }
+
+#class {
+    font-family: myFirstFont;
+    font-size: 7rem;
+    color: black;
+    text-align:center;
+    margin-left: 30rem;  
+    margin-top: 12rem;
+}
+
+.mybottom {
+    color: #1b1b02;
+    font-family: Cambria;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 5px #e90b0b;
+    padding-top: 20rem;  
+}
+
+span {
+    border-bottom: 2px solid blue;
+}
+
+div:hover {
+  border-left: 6px solid red;
+  margin-left: 8px;
+}
+
+
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-duration: 4s;
+    display: inline-block;
+}
+
+#first_div {
+    animation-name: first_div_anim;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
+#second_div {
+    animation-name: second_div_anim;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+
